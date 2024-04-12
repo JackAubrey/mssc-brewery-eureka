@@ -10,5 +10,5 @@ Learn more about my courses below!
 * mvn clean package -DskipTests docker:build docker:push
 * mvn release:prepare
 * mvn release:perform
-* git checkout tags/mssc-beer-inventory-failover-service-0.0.3
+* git checkout tags/mssc-brewery-eureka-1.1
 * mvn clean package -DskipTests docker:build docker:push
