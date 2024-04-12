@@ -15,6 +15,31 @@
     <version>1.0-SNAPSHOT</version>
     <name>mssc-brewery-eureka</name>
     <description>Brewery Eureka Server</description>
+    <url>https://github.com/JackAubrey/mssc-brewery-eureka</url>
+    <packaging>jar</packaging>
+    <licenses>
+        <license>
+            <name>GNU General Public License v3.0</name>
+            <url>https://www.gnu.org/licenses/gpl.txt</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>John Thompson</name>
+            <organization>Spring Framework Guru</organization>
+        </developer>
+        <developer>
+            <name>Danilo</name>
+            <organization>SFG Students</organization>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:JackAubrey/mssc-brewery-eureka.git</connection>
+        <developerConnection>scm:git:git@github.com:JackAubrey/mssc-brewery-eureka.git</developerConnection>
+        <url>https://github.com/JackAubrey/mssc-brewery-eureka</url>
+        <tag>HEAD</tag>
+    </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
