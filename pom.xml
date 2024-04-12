@@ -42,7 +42,7 @@
         <repository>
             <id>github</id>
             <name>GitHub JackAubrey Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/JackAubrey/mssc-brewery-eureka</url>
+            <url>https://maven.pkg.github.com/JackAubrey/${project.artifactId}</url>
         </repository>
     </distributionManagement>
 

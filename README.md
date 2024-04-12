@@ -10,5 +10,5 @@ Learn more about my courses below!
 * mvn clean package -DskipTests docker:build docker:push
 * mvn release:prepare
 * mvn release:perform
-* git checkout tags/mssc-brewery-eureka-1.1
+* git checkout tags/<ARTIFACT>-<TAG>
 * mvn clean package -DskipTests docker:build docker:push
