@@ -38,6 +38,13 @@
         <url>https://github.com/JackAubrey/mssc-brewery-eureka</url>
         <tag>HEAD</tag>
     </scm>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub JackAubrey Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/JackAubrey/mssc-brewery-eureka</url>
+        </repository>
+    </distributionManagement>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
