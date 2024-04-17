@@ -1,4 +1,4 @@
-FROM openjdk:17.0.2-jdk as builder
+FROM openjdk:17.0.2-jdk-slim as builder
 WORKDIR application
 ADD maven/${project.build.finalName}.jar ${project.build.finalName}.jar
 RUN java -Djarmode=layertools -jar ${project.build.finalName}.jar extract
@@ -6,6 +6,8 @@ RUN java -Djarmode=layertools -jar ${project.build.finalName}.jar extract
 FROM openjdk:17.0.2-jdk-slim
 LABEL PROJECT_NAME=${project.artifactId} \
       PROJECT=${project.id}
+
+RUN apt-get -y update; apt-get -y install curl
 
 EXPOSE 8080
 
