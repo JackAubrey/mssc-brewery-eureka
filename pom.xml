@@ -10,7 +10,7 @@
     <groupId>guru.sfg.brewery.eureka</groupId>
     <artifactId>mssc-brewery-eureka</artifactId>
 
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
     <name>mssc-brewery-eureka</name>
     <description>Brewery Eureka Server</description>
     <url>https://github.com/JackAubrey/mssc-brewery-eureka</url>
@@ -36,7 +36,7 @@
         <connection>scm:git:git@github.com:JackAubrey/mssc-brewery-eureka.git</connection>
         <developerConnection>scm:git:git@github.com:JackAubrey/mssc-brewery-eureka.git</developerConnection>
         <url>https://github.com/JackAubrey/mssc-brewery-eureka</url>
-        <tag>HEAD</tag>
+        <tag>1.0.3</tag>
     </scm>
     <distributionManagement>
         <repository>
